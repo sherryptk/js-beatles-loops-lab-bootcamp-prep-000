@@ -8,7 +8,7 @@ function theBeatlesPlay(music, instruments){
 }
 
 function johnLennonFacts(array){
-  var i=array.length
+  var i=array.length-1
   var facts=[]
   var count=0
 
