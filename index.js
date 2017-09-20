@@ -1,6 +1,6 @@
 function theBeatlesPlay(music, instruments){
-  var array= []
-  for (var i = 0; i < array.length; i++) {
+  var array = []
+  for (var i = 0; i < music.length; i++) {
     array[i].push(music[i]) + "plays " + instruments[i])
   }
   return array
