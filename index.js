@@ -9,12 +9,13 @@ function theBeatlesPlay(music, instruments){
 
 function johnLennonFacts(array){
   var i=array.length
+  var facts=[]
   while (i>0) {
-    array.push("!!!")
+    facts.push([array[i]+"!!!")
     i--
   }
 
-  return array
+  return facts
 }
 
 // Use a while loop to loop over the facts array and add "!!!" to the end of every fact.
