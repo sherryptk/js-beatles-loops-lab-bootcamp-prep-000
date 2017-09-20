@@ -11,11 +11,11 @@ function johnLennonFacts(array){
   var i=array.length
   while (i>0) {
     array.push("!!!")
-    i-=
+    i=i-1
   }
 
   return array
 }
 
-// Use a while loop to loop over the facts array and add "!!!" to the end of every fact. 
+// Use a while loop to loop over the facts array and add "!!!" to the end of every fact.
 // The function should return an array of strings with exclamation points.
