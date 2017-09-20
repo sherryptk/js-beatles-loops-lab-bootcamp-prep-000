@@ -21,5 +21,13 @@ function johnLennonFacts(array){
   return facts
 }
 
-// Use a while loop to loop over the facts array and add "!!!" to the end of every fact.
-// The function should return an array of strings with exclamation points.
+function iLoveTheBeatles(num)[
+  array=[]
+
+  do {
+    array.push("I love the Beatles!")
+    num++
+  } while (num<15);
+
+  return array
+]
